@@ -1,10 +1,20 @@
 # Node
 node_modules/
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
 
 # Playwright
 test-results/
 playwright-report/
 blob-report/
-.trace/
+*.log
+trace.zip
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
