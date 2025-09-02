@@ -1,0 +1,10 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+.trace/
